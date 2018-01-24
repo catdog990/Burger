@@ -13,7 +13,7 @@ app.set("view engine", "handlebars");
 
 var orm = require("./config/orm.js");
 
-orm.selectAll("burgers");
+// orm.selectAll("burgers");
 // orm.selectWhere("burgers","burger_name", "Nick Cage Burger");
 
 
